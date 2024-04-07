@@ -8,11 +8,16 @@ export default function createElement(
 
   newElement.innerText = textContent;
 
-  attributes.keys.forEach((key) => {
-    newElement.setAttribute(key, attributes[key]);
-  });
+  if (attributes.keys) {
+    attributes.keys.forEach((key) => {
+      newElement.setAttribute(key, attributes[key]);
+    });
+  }
+  if (children.length > 0) {
+    children.forEach((child) => {
+      newElement.appendChild(child);
+    });
+  }
 
-  children.forEach((child) => {
-    newElement.appendChild(child);
-  });
+  return newElement;
 }
