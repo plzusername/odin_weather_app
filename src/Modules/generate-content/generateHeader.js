@@ -13,6 +13,12 @@ export default function generateHeader() {
     [],
     "ZIP code: "
   );
+  const ZIPsubmitButton = createElement(
+    { class: "ZIP-submit" },
+    "button",
+    [],
+    "Submit"
+  );
 
   const logoHeader = createElement(
     { class: "header-logo" },
@@ -23,7 +29,7 @@ export default function generateHeader() {
   const ZIPsearchSection = createElement(
     { class: "ZIP-search-container" },
     "div",
-    [ZIPlabel, ZIPinput]
+    [ZIPlabel, ZIPinput, ZIPsubmitButton]
   );
 
   const headerSection = createElement({ class: "header-container" }, "div", [
