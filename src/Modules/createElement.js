@@ -8,8 +8,8 @@ export default function createElement(
 
   newElement.innerText = textContent;
 
-  if (attributes.keys) {
-    attributes.keys.forEach((key) => {
+  if (Object.keys(attributes)) {
+    Object.keys(attributes).forEach((key) => {
       newElement.setAttribute(key, attributes[key]);
     });
   }
