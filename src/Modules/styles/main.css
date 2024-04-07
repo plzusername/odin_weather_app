@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url('./generated-styles/footer.css');
+@import url('./generated-styles/header.css');
+@import url('./generated-styles/mainSection.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: "Inter",sans-serif;
+}

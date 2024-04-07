@@ -1,0 +1,21 @@
+:root{
+
+    --main-pink:#bb9af7;
+
+    /* header variables */
+
+    --header-vertical-padding:16px;
+    --header-color:rgb(155, 228, 127);
+    --header-logo-size:20px;
+    --header-background-color:#24283b;
+    --ZIP-search-gap:16px;
+    --ZIP-input-padding:6px;
+    --ZIP-input-border-radius:12px;
+    --ZIP-input-width:120px;
+    --ZIP-search-section-width:320px;
+    --ZIP-submit-size:15px;
+
+    /* main section variables */
+    --main-background-color:rgb(8,21,45);
+
+}
