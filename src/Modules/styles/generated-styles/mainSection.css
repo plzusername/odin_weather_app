@@ -1,1 +1,44 @@
 @import url('../rootVariables.css');
+
+.main-section{
+    background-color: var(--main-background-color);
+    flex: 1;
+    display: grid;
+    place-items: center; /* This centers the content both horizontally and vertically */
+}
+.weather-card-container{
+    background-color: var(--header-background-color);
+    border-radius: var(--weather-car-radius);
+    padding:var(--weather-card-padding);
+}
+.currTemp-display{
+    background-color: var(--temperature-background-color);
+    font-size: var(--temperature-font-size);
+    font-weight: bold;
+    padding: 12px 80px;
+    border-radius: var(--temperature-radius);
+}
+.reigon-display{
+    color: var(--temperature-background-color);
+    font-weight: bold;
+    font-size: var(--reigon-size);
+    margin-top: var(--reigon-margin-top);
+}
+.sky-status-display{
+    margin-top: var(--skyStatus-margin-top);
+    color: var(--main-pink);
+    font-size: var(--skyStatus-size);
+    font-weight: bold;
+}
+.advanced-weather-info > *:not(:last-child){
+    color: white;
+}
+.advanced-weather-info{
+    margin-top: var(--advanced-margin-top);
+    position: relative;
+}
+.advanced-weather-info > img{
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
