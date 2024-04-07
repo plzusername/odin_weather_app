@@ -17,5 +17,14 @@
 
     /* main section variables */
     --main-background-color:rgb(8,21,45);
-
+    --weather-card-radius:8px;
+    --weather-card-padding:32px;
+    --temperature-background-color:#73daca;
+    --temperature-font-size:7rem;
+    --temperature-radius:12px;
+    --reigon-size:28px;
+    --reigon-margin-top:8px;
+    --skyStatus-margin-top:20px;
+    --skyStatus-size:36px;
+    --advanced-margin-top:24px;
 }
