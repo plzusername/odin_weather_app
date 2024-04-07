@@ -1,1 +1,38 @@
 @import url('../rootVariables.css');
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--header-background-color);
+    padding: var(--footer-padding);
+}
+.link-section{
+    display: flex;
+    text-decoration: none;
+    color: var(--main-pink);
+    font-size: var(--link-font-size);
+    gap:var(--git-section-gap);
+    font-weight: bold;
+    position: relative;
+    transition: 320ms ease-in-out;
+}
+.link-section:hover{
+    letter-spacing: var(--link-hover-spacing);
+}
+.link-section::after, .link-section::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: var(--main-pink);
+    position: absolute;
+    top:50%;
+}
+.link-section::before{
+    right:var(--distance-from-link);
+}
+.link-section::after{
+    left:var(--distance-from-link);
+}
+.link-section:hover::before, .link-section:hover::after{
+    width: var(--width-on-hover);
+}
