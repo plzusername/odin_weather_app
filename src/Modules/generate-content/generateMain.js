@@ -24,7 +24,7 @@ export default function generateMain() {
     { class: "currTemp-display" },
     "div",
     [],
-    "'PlaceHlder"
+    "'48"
   );
   const reigonDisplay = createElement(
     { class: "reigon-display" },
@@ -42,7 +42,7 @@ export default function generateMain() {
     { class: "advanced-weather-info" },
     "div",
     [humidity, minTemp, maxTemp, skyIcon],
-    "'PlaceHlder"
+    ""
   );
   const weatherInfoCard = createElement(
     { class: "weather-card-container" },
