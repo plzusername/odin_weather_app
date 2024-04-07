@@ -16,6 +16,7 @@
     --ZIP-submit-size:15px;
 
     /* main section variables */
+
     --main-background-color:rgb(8,21,45);
     --weather-card-radius:8px;
     --weather-card-padding:32px;
@@ -27,4 +28,13 @@
     --skyStatus-margin-top:20px;
     --skyStatus-size:36px;
     --advanced-margin-top:24px;
+
+    /* footer section variables */
+
+    --git-section-gap:12px;
+    --footer-padding:16px;
+    --link-font-size:28px;
+    --link-hover-spacing:5px;
+    --distance-from-link:180px;
+    --width-on-hover:16vw;
 }
