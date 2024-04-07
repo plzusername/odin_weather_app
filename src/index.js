@@ -2,6 +2,7 @@ import generateHeader from "./Modules/generate-content/generateHeader";
 import generateMain from "./Modules/generate-content/generateMain";
 import generateFooter from "./Modules/generate-content/generateFooter";
 import "@fortawesome/fontawesome-free/css/all.css";
+import "./Modules/styles/main.css";
 
 const header = generateHeader();
 const main = generateMain();
