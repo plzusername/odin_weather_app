@@ -7,6 +7,12 @@ export default function generateHeader() {
     [],
     ""
   );
+  const zipErorr = createElement(
+    { class: "zip-error" },
+    "div",
+    [],
+    "Unable to locate ZIP code"
+  );
   const ZIPlabel = createElement(
     { class: "ZIP-label", for: "ZIPid" },
     "label",
@@ -29,7 +35,7 @@ export default function generateHeader() {
   const ZIPsearchSection = createElement(
     { class: "ZIP-search-container" },
     "div",
-    [ZIPlabel, ZIPinput, ZIPsubmitButton]
+    [ZIPlabel, ZIPinput, ZIPsubmitButton, zipErorr]
   );
 
   const headerSection = createElement({ class: "header-container" }, "div", [
