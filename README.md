@@ -19,4 +19,5 @@ Hello and welcome, to my latest(and not so overengineered) project, the weather(
 ```bash
 git clone git@github.com:plzusername/odin_weather_app.git
 
-cd odin_weather_app```
+cd odin_weather_app
+```
