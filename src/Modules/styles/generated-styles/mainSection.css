@@ -23,10 +23,12 @@
     font-weight: bold;
     font-size: var(--reigon-size);
     margin-top: var(--reigon-margin-top);
+    text-transform: uppercase;
 }
 .sky-status-display{
     margin-top: var(--skyStatus-margin-top);
     color: var(--main-pink);
+    text-transform: uppercase;
     font-size: var(--skyStatus-size);
     font-weight: bold;
 }
